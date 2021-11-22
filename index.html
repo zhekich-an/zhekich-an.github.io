@@ -11,6 +11,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Festive&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 <body>
@@ -75,7 +84,7 @@
         <div class="container">
             <div class="cont_for_images flex_images">
                 <img src="images/witcher.jpg" alt="" class="images">
-                <img src="images/witcher1.jpg" alt="" class="images">
+                <img src="images/witcher1.jpg"  title="Witcher" alt="" class="images">
                 <img src="images/the-witcher-horseback.gif" alt="" class="images">
             </div>
             <div style="color: black;" class="cont_for_text main_text">
@@ -95,7 +104,7 @@
         <div class="container">
             <div class="cont_for_images flex_images">
                 <img src="images/heroes1.jpg" alt="" class="images">
-                <img src="images/heroes.jpg" alt="" class="images">
+                <img src="images/heroes.jpg"  title="Heroes" alt="" class="images">
                 <img src="images/league-leagueoflegends.gif" alt="" class="images">
             </div>
             <div style="color: black;" class="cont_for_text main_text">
@@ -112,7 +121,7 @@
         <div class="container">
             <div class="cont_for_images flex_images">
                 <img src="images/Assassin1.jpg" alt="" class="images">
-                <img src="images/assasin.jpg" alt="" class="images">
+                <img src="images/assasin.jpg"  title="Assasin" alt="" class="images">
                 <img src="images/game-on-i-wanted-to-be-called-batman.gif" alt="" class="images">
             </div>
             <div style="color: black;" class="cont_for_text main_text">
@@ -129,7 +138,7 @@
         <div class="container">
             <div class="cont_for_images flex_images">
                 <img src="images/gta2.jpg" alt="" class="images">
-                <img src="images/GTA.jpg" alt="" class="images">
+                <img src="images/GTA.jpg"  title="GTA" alt="" class="images">
                 <img src="images/note7-newgenerationweapon.gif" alt="" class="images">
             </div>
             <div style="color: black;" class="cont_for_text main_text">
@@ -146,7 +155,7 @@
         <div class="container">
             <div class="cont_for_images flex_images">
                 <img src="images/CS!.jpg" alt="" class="images">
-                <img src="images/CS.jpg" alt="" class="images">
+                <img src="images/CS.jpg"  title="CS" alt="" class="images">
                 <img src="images/one-tap-headshot.gif" alt="" class="images">
 
             </div>
@@ -164,7 +173,7 @@
         <div class="container">
             <div class="cont_for_images flex_images">
                 <img src="images/ST1.jpg" alt="" class="images">
-                <img src="images/star wars.jpg" alt="" class="images">
+                <img src="images/star wars.jpg" title="Star Wars" alt="" class="images">
                 <img src="images/star-wars-battlefront-rey.gif" alt="" class="images">
             </div>
             <div style="color: black;" class="cont_for_text main_text">
@@ -178,17 +187,171 @@
             </div>
     </section>
 
-    <section class="section" id="maps">
-        <div class="container">
-        <div  class="cont_for_text main_text">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.651656037122!2d30.519837015190355!3d50.4475887954529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce56b2456d3b%3A0xd062ae171b57e947!2z0YPQuy4g0JrRgNC10YnQsNGC0LjQuiwg0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1633982126664!5m2!1sru!2sua"
-                width="800" height="550" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <section class="section" id="carousel">
+        <div class="cont_for_carousel">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img src="images/witcher1.jpg" alt="" class="images_carousel">
+                </div>
+                <div class="item">
+                    <img src="images/heroes.jpg" alt="" class="images_carousel">
+                </div>
+                <div class="item">
+                    <img src="images/assasin.jpg" alt="" class="images_carousel">
+                </div>
+                <div class="item">
+                    <img src="images/GTA.jpg" alt="" class="images_carousel">
+                </div>
+                <div class="item">
+                    <img src="images/CS.jpg" alt="" class="images_carousel">
+                </div>
+                <div class="item">
+                    <img src="images/star wars.jpg" alt="" class="images_carousel">
+                </div>
+            </div>
         </div>
+
+    </section>
+
+    <section class="section" id="accordion">
+        <div class="cont_for_carousel">
+            <div class="all-faq-items">
+                <div class="faq-item">
+                    <button class="faq-item__trigger">
+                        <span>Question 1</span>
+                        <i class="arrow-down"></i>
+                    </button>
+                    <div class="faq-item__content">
+                        <div class="faq-item__content__wrapper">
+                            <p>
+                                But I must explain to you how all this mistaken idea of denouncing pleasure and praising
+                                pain was born
+                                and I will give you a complete account of the system, and expound the actual teachings
+                                of the great
+                                explorer of the truth, the master-builder of human happiness. No one rejects, dislikes,
+                                or avoids
+                                pleasure itself, because it is pleasure, but because those who do not know how to pursue
+                                pleasure
+                                rationally encounter consequences that are extremely painful.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-item__trigger"><span>Question 2</span> <i class="arrow-down"></i></button>
+                    <div class="faq-item__content">
+                        <div class="faq-item__content__wrapper">
+                            <p>
+                                But I must explain to you how all this mistaken idea of denouncing pleasure and praising
+                                pain was born
+                                and I will give you a complete account of the system, and expound the actual teachings
+                                of the great
+                                explorer of the truth, the master-builder of human happiness. No one rejects, dislikes,
+                                or avoids
+                                pleasure itself, because it is pleasure, but because those who do not know how to pursue
+                                pleasure
+                                rationally encounter consequences that are extremely painful.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-item__trigger"><span>Question 3</span> <i class="arrow-down"></i></button>
+                    <div class="faq-item__content">
+                        <div class="faq-item__content__wrapper">
+                            <p>
+                                But I must explain to you how all this mistaken idea of denouncing pleasure and praising
+                                pain was born
+                                and I will give you a complete account of the system, and expound the actual teachings
+                                of the great
+                                explorer of the truth, the master-builder of human happiness. No one rejects, dislikes,
+                                or avoids
+                                pleasure itself, because it is pleasure, but because those who do not know how to pursue
+                                pleasure
+                                rationally encounter consequences that are extremely painful.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-item__trigger"><span>Question 4</span> <i class="arrow-down"></i></button>
+                    <div class="faq-item__content">
+                        <div class="faq-item__content__wrapper">
+                            <p>
+                                But I must explain to you how all this mistaken idea of denouncing pleasure and praising
+                                pain was born
+                                and I will give you a complete account of the system, and expound the actual teachings
+                                of the great
+                                explorer of the truth, the master-builder of human happiness. No one rejects, dislikes,
+                                or avoids
+                                pleasure itself, because it is pleasure, but because those who do not know how to pursue
+                                pleasure
+                                rationally encounter consequences that are extremely painful.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
+    <section class="section" id="maps">
+        <div class="container">
+            <div class="cont_for_text main_text">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.651656037122!2d30.519837015190355!3d50.4475887954529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce56b2456d3b%3A0xd062ae171b57e947!2z0YPQuy4g0JrRgNC10YnQsNGC0LjQuiwg0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1633982126664!5m2!1sru!2sua"
+                    width="800" height="550" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
 
+    <script>
+        const buttons = document.querySelectorAll('.faq-item__trigger');
+
+buttons.forEach((item) =>
+  item.addEventListener('click', () => {
+    item.querySelector('i').classList.toggle('arrow-up');
+
+    const content = item.nextElementSibling;
+
+    if (content.style.maxHeight) {
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + 'px';
+    }
+  })
+);
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script type="text/javascript">
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: false,
+            autoplay: true,
+            autoplayTimeout: 5000,
+            stagePadding: 100,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        })
+    </script>
 
 </body>
 
