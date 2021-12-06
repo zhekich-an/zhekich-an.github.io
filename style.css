@@ -18,9 +18,20 @@
     margin: 0 auto;
 }
 
+.link {
+    margin-right: 15px;
+    font-size: 20px;
+    color: rgb(43, 84, 129);
+
+}
+
 .section{
-    height: 100vh;
-    padding: 60px 40px 0 ;
+    height: 70vh;
+    padding: 60px 40px;
+}
+.section2{
+    height: 100%;
+    padding: 0 40px 100px;
 }
 
 .logo_text{
@@ -51,15 +62,15 @@ align-items:center;
 } 
 
 .mark1{
-    background-color:red;
+    background-color:rgb(121, 158, 163);
     border-radius: 7px;
 }
 .mark2{
-    background-color:yellow;
+    background-color:rgb(168, 201, 206);
     border-radius:7px;
 }
 .mark3{
-    background-color:green;
+    background-color:rgb(121, 158, 163);
     border-radius: 7px;
 }
 
@@ -95,6 +106,11 @@ align-items:center;
 .table{
     width: 50%;
     height: 100%;
+    /* border: 5px dotted; */
+}
+.about{
+    /* width: 50%; */
+    height:90%;
     /* border: 5px dotted; */
 }
 
@@ -136,7 +152,7 @@ align-items:center;
     height: 60px;
     /* margin: auto; */
     /* border: 2px solid black; */
-    background-color: white;
+    background-color: rgb(231, 228, 228);
     border-radius: 10px;
 }
 .table_title{
@@ -144,14 +160,14 @@ align-items:center;
     height: 60px;
     margin-top: 5%;
     /* border: 2px solid black; */
-    background-color: mediumblue;
+    background-color: rgb(42, 109, 153);
     border-radius: 10px;
 }
 
 .cont_for_images{
     margin: 0 auto;
     width: 70%;
-    height: 30%;
+    height: 40%;
     /* border: 5px dotted;  */
 }
 .cont_for_text{
@@ -160,19 +176,25 @@ align-items:center;
     height: 70%;
     /* border: 5px dotted;  */
 }
+.cont_for_maps{
+    /* padding-top:5%; */
+    width: 100%;
+    height: 80%;
+    border: 5px solid; 
+}
 .images{
     height: 90%;
     margin: 3px;
     /* width: 50px; */
     border-radius: 10px;
     border: black 2px solid;
-    }
+    }    
     
 .images_carousel{
     height: 400px;
     width: auto; 
     border-radius: 10px;
-    border: black 2px solid;
+    border: black 2px solid;    
     }
     
 
@@ -182,40 +204,53 @@ align-items:center;
     justify-content: space-around;
 }
 
-.cont_for_carousel{
-    padding-top:15%;
+.cont_for_accordion{
+    padding-top:10%;
     width: 100%;
-    height: 70%;
+    height: 70%;    
+    /* border: 5px dotted;  */
+}
+.cont_for_carousel{
+    padding-top:3%;
+    width: 100%;
+    height: 70%;    
     /* border: 5px dotted;  */
 }
 
 #Witcher{
-    background-color: grey;
+    background: linear-gradient(to top left, rgb(141, 194, 202), rgb(175, 172, 173));
 }
 #Assasin{
-    background-color: rgb(63, 63, 153);
+    background: linear-gradient(to top left, rgb(141, 194, 202), rgb(175, 172, 173));
 }
 #Heroes{
-    background-color: cadetblue;
+    background: linear-gradient(to bottom left, rgb(141, 194, 202), rgb(175, 172, 173));
 }
 #GTA{
-    background-color: rgb(184, 181, 38);
+    background: linear-gradient(to bottom left, rgb(141, 194, 202), rgb(175, 172, 173));
 }
 #CS{
-    background-color: rgb(93, 185, 185);
+    background: linear-gradient(to top left, rgb(141, 194, 202), rgb(175, 172, 173));
 }
 #Star_Wars{
-    background-color: darkolivegreen;
+    background: linear-gradient(to bottom left, rgb(141, 194, 202), rgb(175, 172, 173));
 }
 #home{
-    background-color: rgb(215, 221, 221);
+    background: linear-gradient(to bottom left, rgb(141, 194, 202), rgb(175, 172, 173));
+}
+#maps{
+    background: linear-gradient(to top left, rgb(141, 194, 202), rgb(175, 172, 173));
 }
 #carousel{
-    background-color: rgb(10, 56, 56);
+    background: linear-gradient(to bottom left, rgb(141, 194, 202), rgb(175, 172, 173));
 }
 #accordion{
-    background-color: rgb(129, 42, 141);
+    background: linear-gradient(to top left, rgb(141, 194, 202), rgb(175, 172, 173));
 }
+#about{
+    background: linear-gradient(to bottom left, rgb(141, 194, 202), rgb(175, 172, 173));
+}
+
 
 .all-faq-items {
     margin-top: 35px;
@@ -259,4 +294,6 @@ align-items:center;
   }
   .faq-item__content__wrapper {
     padding: 15px 20px;
+    display: flex;
+    justify-content: center;
   }
